@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Zemanta/go-secretcrypt/internal"
+	"github.com/outbrain/go-secretcrypt/internal"
 	"github.com/stretchr/testify/assert"
 )
 
