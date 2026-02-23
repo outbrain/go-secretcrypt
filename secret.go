@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Zemanta/go-secretcrypt/internal"
+	"github.com/outbrain/go-secretcrypt/internal"
 )
 
 // StrictSecret represents an encrypted secret that is decrypted on demand.

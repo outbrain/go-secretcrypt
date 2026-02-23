@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Zemanta/go-secretcrypt/internal"
 	"github.com/docopt/docopt-go"
 	"github.com/mattn/go-isatty"
+	"github.com/outbrain/go-secretcrypt/internal"
 )
 
 func encryptSecret(crypter internal.Crypter, plaintext string, encryptParams internal.EncryptParams) (string, error) {

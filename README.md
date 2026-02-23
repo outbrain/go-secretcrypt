@@ -1,9 +1,7 @@
 # go-secretcrypt
 
-[![Circle CI](https://circleci.com/gh/Zemanta/go-secretcrypt.svg?style=svg)](https://circleci.com/gh/Zemanta/go-secretcrypt)
-[![GoDoc](https://godoc.org/github.com/Zemanta/go-secretcrypt?status.svg)](https://godoc.org/github.com/Zemanta/go-secretcrypt)
-[![codecov](https://codecov.io/gh/Zemanta/go-secretcrypt/branch/master/graph/badge.svg)](https://codecov.io/gh/Zemanta/go-secretcrypt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Zemanta/go-secretcrypt)](https://goreportcard.com/report/github.com/Zemanta/go-secretcrypt)
+[![GoDoc](https://godoc.org/github.com/outbrain/go-secretcrypt?status.svg)](https://godoc.org/github.com/outbrain/go-secretcrypt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/outbrain/go-secretcrypt)](https://goreportcard.com/report/github.com/outbrain/go-secretcrypt)
 
 Utility for keeping your secrets encrypted. Also has a [Python version](https://github.com/Zemanta/py-secretcrypt).
 
@@ -96,5 +94,5 @@ prompts for the password again.
 You can install command-line utilities `encrypt-secret` and `decrypt-secret` via:
 
 ```bash
-go install -i github.com/Zemanta/go-secretcrypt/cmd/...
+go install -i github.com/outbrain/go-secretcrypt/cmd/...
 ```

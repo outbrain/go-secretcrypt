@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Zemanta/go-secretcrypt"
 	"github.com/docopt/docopt-go"
+	"github.com/outbrain/go-secretcrypt"
 )
 
 func decryptSecret(secretStr string) {

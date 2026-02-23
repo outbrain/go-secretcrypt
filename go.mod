@@ -1,4 +1,4 @@
-module github.com/Zemanta/go-secretcrypt
+module github.com/outbrain/go-secretcrypt
 
 go 1.12
 
