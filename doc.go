@@ -1,5 +1,5 @@
 /*
-Package secretcrypt is an utility for keeping your secrets encrypted.
+Package secretcrypt is a utility for keeping your secrets encrypted.
 
 For example, you have the following TOML (or any format whose decoder
 supports TextUnmarshaler interface for custom values) configuration file
@@ -53,7 +53,7 @@ and get its plaintext as
 KMS
 
 The KMS option uses AWS Key Management Service. When encrypting and
-decrypting KMS secrets, you need to provide which AWS region the is to be or was
+decrypting KMS secrets, you need to provide which AWS region the secret is to be or was
 encrypted on, but it defaults to us-east-1.
 
 So if you use a custom region, you must provide it to secretcrypt:

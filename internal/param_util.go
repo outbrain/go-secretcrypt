@@ -16,7 +16,7 @@ func ParseDecryptParams(s string) (DecryptParams, error) {
 	return params, nil
 }
 
-// UnparseDecryptParams parses the URL encoded parameters into a map
+// UnparseDecryptParams encodes the parameters map into a URL encoded string
 func UnparseDecryptParams(decryptParams DecryptParams) string {
 	values := make(url.Values)
 	for k, v := range decryptParams {

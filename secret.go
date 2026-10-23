@@ -27,7 +27,7 @@ func (s *StrictSecret) Decrypt() (string, error) {
 	return plaintext, err
 }
 
-// MarshalText marshalls the secret into its textual representation.
+// MarshalText marshals the secret into its textual representation.
 func (s StrictSecret) MarshalText() (text []byte, err error) {
 	return []byte(fmt.Sprintf(
 		"%s:%s:%s",
@@ -102,7 +102,7 @@ func (s Secret) Get() string {
 	return s.plaintext
 }
 
-// MarshalText marshalls the secret into its textual representation.
+// MarshalText marshals the secret into its textual representation.
 func (s Secret) MarshalText() (text []byte, err error) {
 	return []byte(s.secret), nil
 }
